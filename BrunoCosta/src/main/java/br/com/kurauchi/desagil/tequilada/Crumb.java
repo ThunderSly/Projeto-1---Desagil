@@ -4,7 +4,7 @@ public class Crumb {
 	private int col;
 	private int row;
 	
-	public Crumb(int col, int row) {
+	public Crumb(int row, int col) {
 		this.col = col;
 		this.row = row;
 	}

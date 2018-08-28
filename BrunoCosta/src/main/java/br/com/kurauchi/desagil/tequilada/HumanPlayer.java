@@ -6,7 +6,7 @@ public class HumanPlayer extends Player {
 	}
 
 	public void move(int rowShift, int colShift) {
-		row += 2 * rowShift;
-		col += 2 * colShift;
+		row += rowShift;
+		col += colShift;
 	}
 }
